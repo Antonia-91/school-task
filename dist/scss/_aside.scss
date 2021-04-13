@@ -1,0 +1,92 @@
+/* aside */
+
+.aside {
+  position: absolute;
+  top: 0%;
+  transform: translateX(-140%);
+  transition: 0.5s ease-in;
+  background-color: #797f8c;
+  color: #d9c4b8;
+  border: 2px solid rgb(255, 253, 253);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  // min-height: 300px;
+  height: 100vh;
+  width: 300px;
+  overflow: scroll;
+}
+.aside.active {
+  transform: translateX(0%);
+  transition: 0.5s ease-in;
+}
+
+/* aside item style */
+
+.aside-menu {
+  line-height: 10px;
+  min-height: 100px;
+  border-bottom: 2px black solid;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding-right: 40px;
+}
+.aside-style {
+  width: 100%;
+  height: 50%;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+.aside-style li {
+  margin-top: 0px;
+  background-color: #a6938f;
+  color: rgb(255, 253, 253);
+  border: 0.5px solid rgb(255, 253, 253);
+
+  display: block;
+  padding: 8px;
+}
+
+.aside-style li:hover {
+  background-color: rgb(104, 88, 88);
+  color: #d9c4b8;
+}
+
+/* color background Btn:s */
+#b1 {
+  background-color: #6d8c8c;
+}
+#b2 {
+  background-color: #a8bfbf;
+}
+#b3 {
+  background-color: #8c7c68;
+}
+#b4 {
+  background-color: #d98982;
+}
+#b5 {
+  background-color: #736363;
+}
+/* color pen icon  */
+.fal {
+  color: rgb(50, 60, 95);
+  background-color: rgb(50, 60, 95);
+}
+
+.fas {
+  color: rgb(92, 92, 92);
+}
+.fad {
+  background-color: gold;
+  color: gold;
+}
+.far {
+  background-color: rgb(44, 82, 49);
+}

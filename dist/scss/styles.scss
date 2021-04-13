@@ -1,0 +1,14 @@
+@import "toggle";
+@import "tema";
+@import "header";
+@import "aside";
+@import "content";
+/*
+@import "defaultValues";*/
+
+body {
+  background-color: rgb(2, 2, 2);
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
